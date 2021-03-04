@@ -1,0 +1,26 @@
+Configuring Gigabit Ethernet WAN Interfaces
+#configure terminal 
+#interface fa0/0 
+#ip address 192.168.1.1 255.255.255.1
+#no shutdown
+#exit
+-----------------------------------------------
+
+make password for router
+#configure terminal
+#line console 0
+#password ****
+#login
+#end
+
+
+
+
+
+read:
+x=QLineEdit(t1) 
+y=x.Text()
+
+write:
+l=QLabel(" label for write ", t1)
+l.setText("sdklfjaslk")
